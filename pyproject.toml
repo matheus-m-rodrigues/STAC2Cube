@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "STAC2cube"
+version = "0.1.0a1"
+description = "Python library for automated construction of multitemporal geospatial data cubes from INPE STAC collections"
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "affine",
+    "matplotlib",
+    "numpy",
+    "pyproj",
+    "pystac-client",
+    "rasterio",
+    "shapely",
+    "xarray"
+]
+
+[project.urls]
+Homepage = "https://github.com/matheus-m-rodrigues/STAC2Cube"
+Repository = "https://github.com/matheus-m-rodrigues/STAC2Cube"
+Issues = "https://github.com/matheus-m-rodrigues/STAC2Cube/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
