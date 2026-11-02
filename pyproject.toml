@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "STAC2cube"
+name = "stac2cube"
 version = "0.1.0a1"
 description = "Python library for automated construction of multitemporal geospatial data cubes from INPE STAC collections"
 readme = "README.md"
