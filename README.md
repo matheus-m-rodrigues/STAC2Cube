@@ -1,5 +1,4 @@
 # STAC2Cube
-# STAC2Cube
 
 STAC2Cube is a Python library for automated construction of multitemporal geospatial data cubes from collections available through INPE's SpatioTemporal Asset Catalog (STAC) service.
 
